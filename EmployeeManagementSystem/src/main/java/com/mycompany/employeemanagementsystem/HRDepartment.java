@@ -14,4 +14,12 @@ public class HRDepartment implements Department {
     public void displayDepartmentInfo() {
         System.out.println("This is the HR Department, responsible for employee relations.");
     }
+    
+    // added
+    // Observer Pattern
+     @Override
+    public void update(String employeeName, String status) {
+        System.out.println("HR Department notified: " + employeeName + " is now " + status);
+    }
+
 }

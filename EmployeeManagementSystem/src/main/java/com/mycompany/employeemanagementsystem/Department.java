@@ -10,4 +10,8 @@ package com.mycompany.employeemanagementsystem;
  */
 public interface Department {
     void displayDepartmentInfo();
+    // added
+    // observer pattern
+      void update(String employeeName, String status);
+
 }

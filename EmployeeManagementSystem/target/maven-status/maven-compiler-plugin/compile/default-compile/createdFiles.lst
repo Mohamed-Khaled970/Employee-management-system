@@ -28,5 +28,6 @@ com\mycompany\employeemanagementsystem\EmployeeManagementForm$7.class
 com\mycompany\employeemanagementsystem\EmployeeManagementSystem.class
 com\mycompany\employeemanagementsystem\PartTimeSalaryCalculationStrategy.class
 com\mycompany\employeemanagementsystem\EmployeeManagementForm$2.class
+com\mycompany\employeemanagementsystem\ObserverPattern.class
 com\mycompany\employeemanagementsystem\PayrollSystem.class
 com\mycompany\employeemanagementsystem\Department.class

@@ -14,4 +14,12 @@ public class ITDepartment implements Department {
     public void displayDepartmentInfo() {
         System.out.println("This is the IT Department, responsible for technology infrastructure.");
     }
+    
+    // added
+    // observer pattern
+      @Override
+    public void update(String employeeName, String status) {
+        System.out.println("IT Department notified: " + employeeName + " is now " + status);
+    }
+
 }

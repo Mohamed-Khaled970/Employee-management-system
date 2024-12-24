@@ -14,4 +14,12 @@ public class FinanceDepartment implements Department {
     public void displayDepartmentInfo() {
         System.out.println("This is the Finance Department, responsible for financial operations.");
     }
+    
+    // added
+    //observer pattern
+        @Override
+    public void update(String employeeName, String status) {
+        System.out.println("Finance Department notified: " + employeeName + " is now " + status);
+    }
+
 }

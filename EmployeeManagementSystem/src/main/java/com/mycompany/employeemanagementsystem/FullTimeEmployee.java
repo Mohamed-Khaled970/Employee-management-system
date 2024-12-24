@@ -15,6 +15,8 @@ public class FullTimeEmployee extends Employee {
         this.type = "Full-time"; // نوع الموظف
     }
     
+
+    
     // Builder Design Pattern
      public static class Builder {
         private String firstName;
